@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi HTML Form</title>
+  </head>
+  <body>
+    <p>This is HTML Form</p>
+
+    <h1>Formulir Login</h1>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+    </form>
+
+    <h1>Formulir Inputan Random</h1>
+    <form>
+      <label for="description">Description</label>
+      <br />
+      <textarea
+        name="description"
+        id="description"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+
+      <!-- Radio Button -->
+      <label for="">Gender</label>
+      <br />
+      <input type="radio" name="gender" id="radio-male" />
+      <label for="radio-male">Male (Pria)</label>
+      <input type="radio" name="gender" id="radio-female" />
+      <label for="radio-female">Female (Wanita)</label>
+
+      <br />
+      <br />
+
+      <!-- CHECKBOX -->
+      <label for="">Hobby</label>
+      <br />
+      <input type="checkbox" name="hobby" id="memancing" />
+      <label for="memancing">Memancing</label>
+      <input type="checkbox" name="hobby" id="ngoding" />
+      <label for="ngoding">Ngoding</label>
+      <input type="checkbox" name="hobby" id="main-game" />
+      <label for="main-game">Main Game Valorant</label>
+
+      <br />
+
+      <!-- SELECT OPTION -->
+      <select>
+        <option value="">---- Pilih Agama -----</option>
+        <option value="islam">Islam</option>
+        <option value="kristen">Kristen</option>
+        <option value="buddha">Buddha</option>
+        <option value="hindu">Hindu</option>
+        <option value="konghucu">Konghucu</option>
+      </select>
+
+      <br />
+
+      <input type="submit" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <a href="../index.html">Back to main menu</a>
+  </body>
+</html>
